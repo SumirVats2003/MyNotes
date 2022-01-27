@@ -11,6 +11,14 @@
     --dark: #18191a;
 }
 
+a {
+    color: var(--nav);
+}
+
+a:hover {
+    color: #d92a07;
+}
+
 .navbar {
     background-color: var(--nav);
     color: var(--dark);
