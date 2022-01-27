@@ -19,26 +19,6 @@ a:hover {
     color: #d92a07;
 }
 
-.navbar {
-    background-color: var(--nav);
-    color: var(--dark);
-}
-
-.navbar ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-.navbar ul li {
-    cursor: pointer;
-    margin: 1vw;
-    margin-right: 3vw;
-    font-size: 20px;
-    color: white;
-}
-
 .heading {
     text-align: center;
     font-size: 50px;
@@ -69,7 +49,7 @@ a:hover {
 .topic {
     text-transform: capitalize;
     font-size: 30px;
-    color: var(--dark);
+    color: var(--nav);
     margin-top: 5vh;
 }
 
