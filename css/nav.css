@@ -9,10 +9,21 @@
     justify-content: flex-end;
 }
 
-.navbar ul li {
-    cursor: pointer;
-    margin: 1vw;
-    margin-right: 3vw;
+.navbar ul li a{
+	cursor: pointer;
+    /* margin: 1vw;
+    margin-right: 3vw; */
     font-size: 20px;
     color: white;
+}
+
+.navbar ul li a {
+	/* width: 9vw; */
+	display: block;
+	padding: 2vh 2vw;
+}
+
+.navbar ul li a:hover {
+	background-color: white;
+	color: var(--nav);
 }
