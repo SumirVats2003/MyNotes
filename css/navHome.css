@@ -1,0 +1,41 @@
+.navbar {
+    background-color: var(--nav);
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbar ul li a{
+	cursor: pointer;
+    /* margin: 1vw;
+    margin-right: 3vw; */
+    font-size: 20px;
+    color: var(--dark);
+}
+
+.navbar ul li a {
+	/* width: 9vw; */
+	display: block;
+	padding: 2vh 2vw;
+}
+
+.navbar ul li a:hover {
+	background-color: var(--dark);
+	color: var(--nav);
+}
+
+@media only screen and (max-width: 500px) {
+	.navbar ul {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.navbar ul li {
+		width: 100%;
+		text-align: center;
+	}
+}

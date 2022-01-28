@@ -4,20 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Notes - Where I learnt from</title>
+    <title>MyNotes - Your Online Notes Library</title>
+	<script src="https://kit.fontawesome.com/1801282281.js" crossorigin="anonymous"></script>
     <link rel="stylesheet"
       href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.4.0/styles/atom-one-dark.css">
     <link rel="stylesheet" href="css/links.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/navHome.css">
+    <link rel="stylesheet" href="css/sticky.css">
+    <link rel="stylesheet" href="css/homeFoot.css">
     <link rel="shortcut icon" href=".ico">
 
 </head>
 <body>
-    <a href="git.html">GIT</a>
+    <!-- <a href="git.html">GIT</a> -->
+	<nav class="navbar" id="navbar">
+        <ul class="list">
+            <li class="items"><a href="#">Home</a></li>
+            <li class="items"><a href="#">About</a></li>
+            <li class="items"><a href="#">Contact Us</a></li>
+            <li class="items"><a href="#">Fork on <i class="fab fa-github"></i></a></li>
+        </ul>
+    </nav>
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
-    <script type="text/javascript">
-        hljs.initHighlightingOnLoad();
-    </script>
+	<div class="intro">
+		<div class="logo">
+			<img src="img/git-orange.png" alt="MyNotes">
+		</div>
+		<div class="text">
+			MyNotes - Your Complete Online Notes Library
+		</div>
+		<p>
+			MyNotes is an open source project which delivers to you the best-in class notes for programming and development. There are multiple languages and frameworks support and we wish to grow the community and reach in future.
+		</p>
+		<a href="#">
+			<button class="btn">
+				Start Exploring!
+			</button>
+		</a>
+	</div>
+	<!-- <section class="main">
+		<h1 class="head">Explore Resources</h1>
+	</section> -->
+
 </body>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+<script type="text/javascript">
+	hljs.initHighlightingOnLoad();
+</script>
+<script src="js/sticky.js"></script>
 </html>
