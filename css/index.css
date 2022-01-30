@@ -98,7 +98,12 @@
 }
 
 .lang:hover {
-	background-color: var(--dark);
+	background: 
+		linear-gradient(rgb(48, 48, 48), transparent),
+		linear-gradient(to top left, var(--dark), transparent),
+		linear-gradient(to top right, rgb(37, 37, 37), transparent)
+	;
+	background-blend-mode: screen;
 	color: white;
 	transition: 0.2s ease-in-out;
 }
