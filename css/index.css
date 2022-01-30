@@ -84,11 +84,26 @@
 
 
 .lang img {
-	width: 10rem;
-	height: 10rem;
-	margin: 1.5em;
+	width: 55%;
+	height: 50%;
+	margin: .5em;
 }
 
 .lang .toast {
 	margin: 1em;
+}
+
+.lang:hover {
+	width: 23vw;
+	height: 53vh;
+	transition: 0.2s ease;
+}
+
+@media only screen and (max-width: 900px) {
+	.langs {
+		flex-direction: column;
+	}
+	.lang {
+		margin: 5vh;
+	}
 }
