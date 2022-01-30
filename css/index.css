@@ -10,7 +10,6 @@
 
 .intro {
 	color: white;
-	/* height: 80vh; */
 	padding: 8vh 2vw;
 	background-color: var(--dark);
 	display: flex;
@@ -42,7 +41,6 @@
 	border-radius: 3px;
 	font-size: 1.5rem;
 	padding: 2vh 1vw;
-	/* margin-bottom: 2em; */
 }
 
 .btn:hover {
@@ -102,20 +100,10 @@
 	background: 
 		linear-gradient(rgb(48, 48, 48), transparent),
 		linear-gradient(to top left, var(--dark), transparent),
-		linear-gradient(to top right, rgb(37, 37, 37), transparent)
-	;
+		linear-gradient(to top right, rgb(37, 37, 37), transparent);
 	background-blend-mode: screen;
 	color: white;
 	transition: 0.2s ease-in-out;
-}
-
-@media only screen and (max-width: 900px) {
-	.langs {
-		flex-direction: column;
-	}
-	.lang {
-		margin: 5vh;
-	}
 }
 
 footer {
@@ -169,4 +157,13 @@ footer p {
 
 footer p i {
 	color: rgb(255, 0, 64);
+}
+
+@media only screen and (max-width: 900px) {
+	.langs {
+		flex-direction: column;
+	}
+	.lang {
+		margin: 5vh;
+	}
 }
