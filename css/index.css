@@ -93,6 +93,10 @@
 	margin: 1em;
 }
 
+.lang a {
+	color: var(--nav)
+}
+
 .lang:hover {
 	width: 23vw;
 	height: 53vh;
