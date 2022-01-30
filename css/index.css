@@ -163,7 +163,12 @@ footer p i {
 	.langs {
 		flex-direction: column;
 	}
+
 	.lang {
 		margin: 5vh;
+	}
+
+	.footer {
+		flex-direction: column;
 	}
 }
