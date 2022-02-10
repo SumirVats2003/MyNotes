@@ -8,6 +8,11 @@
 	--dark: #18191a;
 }
 
+#sect {
+	height: 100vh;
+	background-color: var(--dark);
+}
+
 .navbar {
     background-color: var(--dark);
 }
@@ -37,7 +42,7 @@
 
 .intro {
 	color: white;
-	padding: 8vh 2vw;
+	padding: 6vh 2vw;
 	background-color: var(--dark);
 	display: flex;
 	flex-direction: column;
